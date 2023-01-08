@@ -1,0 +1,248 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    background: #23252C;
+}
+
+.nav--img{
+    position: relative;
+    width: 302px;
+    height: 317px;
+    /* left: 116px;
+    top: 44px; */
+    border-radius: 10px 10px 0px 0px;
+}
+
+.display-flex{
+    display: flex;
+}
+
+.nav--style{
+    flex-direction: column;
+}
+
+.app--sty{
+    left: 50%;
+    height: 735px;
+    width: 303px;
+    margin-left: 116px;
+    margin-right: 117px;
+    margin-top: 44px;
+    margin-bottom: 44px;
+    background: #1A1B21;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.nav--name{
+    margin: 0;
+    padding-top: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+.nav--title{
+    margin: 0;
+    padding-top: 2px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+
+    color: #F3BF99;
+}
+
+.nav--website{
+    margin: 0;
+    padding-top: 8.81px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* identical to box height, or 15px */
+
+    text-align: center;
+
+    color: #F5F5F5;
+}
+
+.nav--button{
+    margin: 0;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* justify-content: center; */
+    align-items: center;
+    margin-top: 15px;
+}
+
+.nav--button_email{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+    width: 115px;
+    height: 34px;
+    background: #FFFFFF;
+
+    border: 1px solid #D1D5DB;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.nav--button_linkedin{
+    /* display: flex; */
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    width: 115px;
+    height: 34px;
+
+    background: #5093E2;
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+}
+
+.about{
+    padding-top: 33px;
+    padding-left: 36px;
+}
+
+.about--text{
+    width: 242.71px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+.about--detail{
+    margin: 0;
+    padding-top: 5px;
+    width: 247px;
+    height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.interests{
+    margin: 0;
+    padding-top: 27px;
+    padding-left: 36px;
+}
+
+.interests--text{
+    width: 242.71px;
+    height: 21px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+    color: #F5F5F5;
+}
+
+.interests--detail{
+    margin: 0;
+    padding-top: 5px;
+    width: 247px;
+    height: 61px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10.24px;
+    line-height: 150%;
+    /* or 15px */
+
+
+    color: #DCDCDC;
+}
+
+.footer{
+    border-radius: 0 0 10px 10px;
+    margin-top: 36px;
+    padding-top: 19px;
+    padding-bottom: 20px;
+    background: #161619; 
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
+
+.footer--twitter{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 73px;
+    background: #918E9B;
+    height: 25.000001907348633px;
+    width: 25.000001907348633px;
+    /* margin: 0; */
+}
+
+.footer--facebook{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    background: #918E9B;
+    height: 25.000001907348633px;
+    width: 25.000001907348633px;
+    /* margin: 0; */
+}
+
+.footer--instagram{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    background: #918E9B;
+    height: 25.000001907348633px;
+    width: 25.000001907348633px;
+    /* margin: 0; */
+}
+
+.footer--github{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 24px;
+    background: #918E9B;
+    height: 25.000001907348633px;
+    width: 25.000001907348633px;
+    /* margin: 0; */
+}
+
+
+
+
